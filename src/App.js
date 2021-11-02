@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// ReactJs Clock
+// Make a clock component using React that shows the current date and time.
+
+// Requirements
+// The time should be stored in the component's state
+// Bonus
+// Put a picture of a calendar next to the date, and a picture of a clock next to the time
+// Allow the user to switch between 12-hour and 24-hour time
+import Clock from "./components/Clock";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Clock />;
 }
 
 export default App;

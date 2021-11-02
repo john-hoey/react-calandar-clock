@@ -1,0 +1,94 @@
+.date-time-container {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  margin: 20px 0px;
+}
+.date-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  width: 50vw;
+  background-color: #1abc9c;
+  color: white;
+  font-size: xx-large;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-weight: 600;
+}
+
+.calandar-svg {
+  height: 1.5em;
+  width: 1.5em;
+  transform: translate(-8px, 0px);
+}
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 50vw;
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+.clock-svg {
+  height: 2.5em;
+  width: 2.5em;
+  transform: translate(-16px, -13px);
+}
+.clock-display-12,
+.clock-display-24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4em;
+}
+
+.hour-format-btn {
+  background-color: #fe4f60;
+  padding: 5px;
+  border-radius: 5px;
+
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+  .date-time-container {
+    height: 100vh;
+    margin: 0;
+  }
+  .date-container {
+    max-height: 15vh;
+    width: 100%;
+    font-size: x-large;
+  }
+  .clock-container {
+    height: 85vh;
+    width: 100%;
+  }
+  .clock-display-12,
+  .clock-display-24 {
+    font-size: 2em;
+  }
+}
+@media screen and (max-height: 400px) {
+  .date-time-container {
+    height: 100vh;
+  }
+  .date-container {
+    max-height: 15vh;
+    width: 100%;
+    font-size: x-large;
+  }
+  .clock-container {
+    height: 85vh;
+    width: 100%;
+  }
+  .clock-display-12,
+  .clock-display-24 {
+    font-size: 2em;
+  }
+}
