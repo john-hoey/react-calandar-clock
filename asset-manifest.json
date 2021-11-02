@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-calandar-clock/static/css/main.3393bf93.chunk.css",
+    "main.js": "/react-calandar-clock/static/js/main.fec2bd89.chunk.js",
+    "main.js.map": "/react-calandar-clock/static/js/main.fec2bd89.chunk.js.map",
+    "runtime-main.js": "/react-calandar-clock/static/js/runtime-main.e71de21f.js",
+    "runtime-main.js.map": "/react-calandar-clock/static/js/runtime-main.e71de21f.js.map",
+    "static/js/2.6ab092d9.chunk.js": "/react-calandar-clock/static/js/2.6ab092d9.chunk.js",
+    "static/js/2.6ab092d9.chunk.js.map": "/react-calandar-clock/static/js/2.6ab092d9.chunk.js.map",
+    "static/js/3.c3aa13ff.chunk.js": "/react-calandar-clock/static/js/3.c3aa13ff.chunk.js",
+    "static/js/3.c3aa13ff.chunk.js.map": "/react-calandar-clock/static/js/3.c3aa13ff.chunk.js.map",
+    "index.html": "/react-calandar-clock/index.html",
+    "static/css/main.3393bf93.chunk.css.map": "/react-calandar-clock/static/css/main.3393bf93.chunk.css.map",
+    "static/js/2.6ab092d9.chunk.js.LICENSE.txt": "/react-calandar-clock/static/js/2.6ab092d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e71de21f.js",
+    "static/js/2.6ab092d9.chunk.js",
+    "static/css/main.3393bf93.chunk.css",
+    "static/js/main.fec2bd89.chunk.js"
+  ]
+}
