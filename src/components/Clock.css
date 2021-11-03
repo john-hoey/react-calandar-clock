@@ -55,6 +55,15 @@
   font-size: large;
   font-weight: bold;
 }
+
+.gh-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
 @media screen and (max-width: 1000px) {
   .date-time-container {
     height: 100vh;

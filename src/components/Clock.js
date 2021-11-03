@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Clock.css";
+import ghlogo from "../images/github-logo.png";
 
 function Clock() {
   const [currentDateAndTime, setCurrentDateAndTime] = useState(new Date());
@@ -54,6 +55,15 @@ function Clock() {
           </div>
         )}
       </div>
+      <a
+        href="https://github.com/john-hoey/react-calandar-clock"
+        target="_blank"
+        rel="noreferrer"
+        className="gh-link"
+      >
+        <img src={ghlogo} alt="github icon and link" />
+        &nbsp;Browse the Source
+      </a>
     </section>
   );
 }
